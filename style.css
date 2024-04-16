@@ -7,7 +7,6 @@
     }
 
     .landing-page {
-      height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -19,7 +18,6 @@
     }
 
     #website {
-      height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -38,7 +36,8 @@
     h1 {
       font-size: 3em;
       margin-bottom: 10px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+      font-weight: bold;
     }
 
     p {
@@ -83,13 +82,16 @@
       margin-top: 40px;
     }
     
-    .crypto-logo {
+    #crypto-logo {
       width:80%;
       height: auto;
     }
 
-     svg {
-      width: 80px;
-      height: 80px;
-      fill: #007bff; /* Example color */
-      }
+    #web-logo {
+    }
+
+    svg {
+     width: 80px;
+     height: 80px;
+     fill: #007bff; /* Example color */
+     }
