@@ -18,6 +18,18 @@
       color: #4D4D4D;
     }
 
+    #website {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      color: #4D4D4D;
+    }
+
     .content {
       padding: 20px;
       max-width: 600px;
@@ -69,8 +81,6 @@
 
     #whatsapp-link {
       margin-top: 40px;
-    }
-    #websites {
     }
     
     .crypto-logo {
