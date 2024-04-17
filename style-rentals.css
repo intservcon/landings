@@ -72,3 +72,13 @@ header a {
 	background-color: #128C7E;
 }
 
+@media (min-width: 600px) {
+	.service {
+		flex-basis: 48%;
+	}
+}
+@media (min-width: 900px) {
+	.service {
+		flex-basis: 31%;
+	}
+}
