@@ -52,3 +52,23 @@ header a {
 	font-size: 18px;
 	border-radius: 5px;
 }
+.whatsapp-link {
+	margin-top: 20px;
+	display: block;
+	background-color: #25D366;
+	color: #fff;
+	padding: 15px 30px;
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+        margin: 20px auto;
+	border-radius: 25px;
+	font-weight: bold;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	transition: background-color 0.3s;
+}
+
+.whatsapp-link:hover {
+	background-color: #128C7E;
+}
+
