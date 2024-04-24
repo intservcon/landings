@@ -72,13 +72,37 @@ header a {
 	background-color: #128C7E;
 }
 
+@media (min-width: 300px) {
+	.service {
+		flex-basis: 80%;
+	}
+	
+@media (min-width: 400px) {
+	.service {
+		flex-basis: 705;
+	}
+	
+}
+@media (min-width: 500px) {
+	.service {
+		flex-basis: 70%;
+	}
+}
+
 @media (min-width: 600px) {
 	.service {
-		flex-basis: 48%;
+		flex-basis: 65%;
 	}
+}
+	
+@media (min-width: 700px) {
+	.service {
+		flex-basis: 60%;
+	}
+	
 }
 @media (min-width: 900px) {
 	.service {
-		flex-basis: 31%;
+		flex-basis: 55%;
 	}
 }
